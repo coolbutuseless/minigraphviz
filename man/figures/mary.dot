@@ -1,0 +1,31 @@
+digraph mary {
+  rankdir=LR
+  node [shape=rect]
+  Mary [fillcolor=lightblue, style=filled]
+  Mary -> had [color="#FF0000"]
+  had -> a [color="#FF4600"]
+  a -> little [color="#FF8B00"]
+  little -> lamb [color="#FFD100"]
+  lamb -> its [color="#E8FF00"]
+  its -> fleece [color="#A2FF00"]
+  fleece -> was [color="#5DFF00"]
+  was -> white [color="#17FF00"]
+  white -> as [color="#00FF2E"]
+  as -> snow [color="#00FF74"]
+  snow -> and [color="#00FFB9"]
+  and -> everywhere [color="#00FFFF"]
+  everywhere -> that [color="#00B9FF"]
+  that -> Mary [color="#0074FF"]
+  Mary -> went [color="#002EFF"]
+  went -> the [color="#1700FF"]
+  the -> lamb [color="#5D00FF"]
+  lamb -> was [color="#A200FF"]
+  was -> sure [color="#E800FF"]
+  sure -> to [color="#FF00D1"]
+  to -> go [color="#FF008B"]
+  lamb -> Lamb
+  subgraph cluster_sheep {
+    Lamb -> Sheep [color=red, label=growth]
+  }
+}
+
