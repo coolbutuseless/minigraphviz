@@ -7,7 +7,7 @@
 
 ![](https://img.shields.io/badge/cool-useless-green.svg)
 [![CRAN](https://www.r-pkg.org/badges/version/minigraphviz)](https://CRAN.R-project.org/package=minigraphviz)
-[![R-CMD-check](https://github.com/coolbutuseless/minigraphviz-dev/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/coolbutuseless/minigraphviz-dev/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/coolbutuseless/minigraphviz/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/coolbutuseless/minigraphviz/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `{minigraphviz}` is a package for building input files used by
